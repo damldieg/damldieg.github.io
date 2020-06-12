@@ -111,7 +111,7 @@ label .fa-times{
       font-weight: bolder;
   }
 
-  .enlace:hover{
+  .desk:hover{
     font-family: 'IBM Plex Mono';
     font-size: 16px;
     letter-spacing: 0;
@@ -120,7 +120,7 @@ label .fa-times{
     color: #00F3BB;
   }
 
-  .desk:visited + .enlace{
+  .desk:visited{
     font-family: 'IBM Plex Mono';
     font-size: 16px;
     color: rgba(6,10,36,0.56);
@@ -131,6 +131,10 @@ label .fa-times{
 
   .logo-desktop{
       padding: 0 0 0 100px;
+  }
+
+  .desk{
+      color: #060A24;
   }
 }
 

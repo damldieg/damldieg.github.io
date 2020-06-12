@@ -32,7 +32,7 @@ font-family: 'IBM Plex Mono', monospace;
     font-weight: bolder;
 }
 
-.titulo input{
+.boton-titulo{
     background: #00F3BB;
     width: 288px;
     height: 48px;
@@ -47,6 +47,10 @@ font-family: 'IBM Plex Mono', monospace;
     font-weight: bolder;
 }
 
+.link-conoce{
+    color: #060A24;
+    text-decoration: none;
+}
 
 
 @media screen and (min-width: 950px){
@@ -78,7 +82,7 @@ font-family: 'IBM Plex Mono', monospace;
       display: inline;
   }
 
-  .titulo input{
+  .boton-titulo{
     font-family: 'IBM Plex Mono';
     font-size: 18px;
     color: #060A24;
@@ -89,10 +93,14 @@ font-family: 'IBM Plex Mono', monospace;
     font-weight: 900;
   }
 
-  .titulo input:hover{
+  .boton-titulo:hover{
     color: white;
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 
 }
+
+    .link-conoce:hover{
+        color: white;
+    }
          
 }

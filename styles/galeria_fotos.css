@@ -77,9 +77,14 @@
 }
 
 .novedades{
+    justify-content: center;
     margin-top: 30px;
     clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0% 100%);
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .pregunta{
@@ -90,6 +95,7 @@
     letter-spacing: 0;
     text-align: center;
     line-height: 42px;
+    width: 100%;
 }
 
 .boton-novedades{
@@ -103,9 +109,13 @@
     text-align: center;
     line-height: 22px;
     font-weight: bolder;
-    margin: 0 16px 36px 16px;
+    margin:  36px 0;
 }
 
+.link-boton{
+    text-decoration: none;
+    color: #060A24 ;
+}
 
 
 @media screen and (min-width: 950px){
@@ -195,5 +205,9 @@
     .boton-novedades:hover{
         color: white;
         background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    }
+
+    .link-boton:hover{
+        color: white;
     }
 }
