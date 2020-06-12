@@ -1,0 +1,55 @@
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+*/
+
+.episodios{
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    margin-top: 24px;
+    padding-bottom: 150px;
+    clip-path: polygon(0 5%, 100% 0, 100% 93%, 0 100%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo-seccion{
+    margin-left: 16px;
+    padding-top: 64px;
+    margin-bottom: 21px;
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 42px;
+    width: 100%;
+}
+
+.episodio{
+    padding: 11px;
+    width: 298px;
+    
+}
+
+
+@media screen and (min-width: 950px){
+    
+   .episodio{
+       width: 584px;
+   }
+
+   .podcast{
+       padding-left: 75px;
+   }
+
+   .titulo-seccion{
+        font-family: 'IBM Plex Sans';
+        font-size: 48px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        padding-left: 125px;
+   }
+   
+   
+        
+}
+
+

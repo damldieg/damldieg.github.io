@@ -1,0 +1,61 @@
+.nosotros{
+    margin-top: 500px; 
+    position: relative;
+}
+
+
+.contenedor-telefono{
+    margin-bottom: 150px;
+}
+
+.imagen-sup{
+    position: absolute;
+    width: 320px;
+    height: 500px;
+    align-content: center;
+    top: 1550px;
+}
+
+
+.subt{
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin-left: 16px;
+    top: 150px;
+    font-weight: bold;
+    
+}
+
+.donde-venimos{
+    padding-top: 300px;
+}
+
+
+
+@media screen and (min-width: 950px){
+    .imagen-sup{
+        margin-left: 200px;
+        top: 1100px;
+    }
+
+    .donde-venimos{
+        position: absolute;
+        padding: 50px 256px 50px 720px;
+        top: 1200px;
+    }
+
+    .salto-linea{
+        display: none;
+    }
+
+    .primero{
+        font-family: 'IBM Plex Sans';
+        font-size: 35px;
+        color: #060A24;
+        letter-spacing: 0;
+    }
+
+}
