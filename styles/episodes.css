@@ -26,7 +26,7 @@ font-family: 'IBM Plex Mono', monospace;
 
 .episodio{
     padding: 11px;
-    width: 298px;
+    width: 301px;
     
 }
 
@@ -37,9 +37,6 @@ font-family: 'IBM Plex Mono', monospace;
        width: 584px;
    }
 
-   .podcast{
-       padding-left: 75px;
-   }
 
    .titulo-seccion{
         font-family: 'IBM Plex Sans';

@@ -102,6 +102,12 @@
     width: 288px;
     height: 48px;
     background: #00F3BB;
+  
+    margin:  36px 0;
+}
+
+.link-boton{
+    text-decoration: none;
     font-family: 'IBM Plex Mono';
     font-size: 16px;
     color: #060A24;
@@ -109,12 +115,9 @@
     text-align: center;
     line-height: 22px;
     font-weight: bolder;
-    margin:  36px 0;
-}
-
-.link-boton{
-    text-decoration: none;
-    color: #060A24 ;
+    position: relative;
+    top: 25%;
+    left: 15%;
 }
 
 
@@ -192,12 +195,6 @@
 
     .boton-novedades{
         margin: 36px 500px 150px 500px;
-        font-family: 'IBM Plex Mono';
-        font-size: 18px;
-        color: #060A24;
-        letter-spacing: 0;
-        text-align: center;
-        line-height: 24px;
         width: 345px;
         height: 58px;
     }
@@ -206,6 +203,18 @@
         color: white;
         background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
     }
+
+    .link-boton{
+        font-family: 'IBM Plex Mono';
+        font-size: 18px;
+        color: #060A24;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 24px;
+        position: relative;
+        left: 18%;
+    }
+
 
     .link-boton:hover{
         color: white;
